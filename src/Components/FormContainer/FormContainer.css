@@ -1,0 +1,29 @@
+
+.Form{
+    border-radius: 30px 0 0 30px;
+    width: 450px;
+    height: 450px;
+    background-color: #316B83;
+    margin: 2px;
+    overflow:scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    }
+.Form h1{
+    text-align: center;
+    color:#32c5cf;
+    border-bottom: 3px double #32c5cf;
+}
+.inputList{
+    display: flex;
+    justify-content: center;
+}
+.Form::-webkit-scrollbar {
+    width: 20px;
+}
+.Form::-webkit-scrollbar-track {
+    background: #1DB9C3; 
+}
+.Form::-webkit-scrollbar-thumb {
+    background: #285479;
+}
